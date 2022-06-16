@@ -1,69 +1,35 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    <div class="container">
-      <div class="header-container">
-        <div class="header">
-          <h1 id="title">Hoenicka's Project</h1>
-          <p id="description">Freelance services</p>
-        </div>
-      </div>
-      <div class="form-container">
-        <div class="text-form">
-          <label id="name-label" for="name">Name</label>
-          <input type="text" name="nombre" id="name" placeholder="Your name" required>
-        </div>
-        <div class="text-form">
-          <label id="email-label" for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="Your email address" required>
-        </div>
-        <div class="text-form">
-          <label id="number-label" for="number">Age</label>
-          <input type="number" name="edad" id="number" placeholder="Your age" min="17" max="90">
-        </div>
-        <div class="text-form">
-          <p id="p-form">How did you find us?</p>
-          <select id="dropdown">
-            <option disabled selected>Select</option>
-            <option>Reference</option>
-            <option>Social Media</option>
-            <option>Other</option>  
-          </select>
-        </div>
-        <div class="select-form">
-          <p id="p-form-active">What service would you like to have?</p>
-          <label id="radio"><input name="type-service" type="radio" id="radio-input">Website</label>
-          <label id="radio"><input name="type-service" type="radio" id="radio-input">Portfolio</label>
-          <label id="radio-input-active"><input name="type-service" type="radio" id="radio-input">Other</label>
-        </div>
-        <div class="select-form">
-          <p id="p-form">Framework to contain</p>
-          <select id="select" name="option">
-            <option disabled selected value>Select</option>
-            <option value="no-framework">No Framework</option>
-            <option value="react">React.js</option>
-            <option value="angular">Angular.js</option>
-            <option value="other">Other</option>
-          </select>
-        </div>
-        <div class="select-form">
-          <p id="p-form-active2">How much do you plan to pay?</p>
-          <label id="checkbox"><input name="price" value="price" type="checkbox" id="checkbox-input">$100</label>
-          <label id="checkbox"><input name="price" value="price" type="checkbox" id="checkbox-input">$500</label>
-          <label id="checkbox-active"><input name="price" value="price" type="checkbox" id="checkbox-input">$1000</label>
-          <label id="checkbox"><input name="price" value="price" type="checkbox" id="checkbox-input">more</label>
-        <div class="textarea">  
-          <p id="p-form-active3">Message</p>
-          <textarea id="textarea" name="message" placeholder="Enter your message"
-          ></textarea>
-        </div>
-        <div class="submit">
-          <button type="submit" id="submit">Submit</button>
-        </div>
-      </form>
+<head>
+  <title></title>
+  <link type="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="main">
+    <div class="header">
+      <h1 id="title">Life before programming</h1>
+      <p id="subtitle">by Josue Hoenicka</p>
     </div>
-  </body>
+    <div id="img-div">
+      <img id="image" src="https://avatars.githubusercontent.com/u/95772739?v=4" title="Josue Hoenicka" alt="Josue Hoenicka programador venezolano en Argentina" title="Josue Hoenica" alt="josue hoenicka">
+        <figcaption id="img-caption">Josue Hoenicka es un programador frontend venezolano que actualmente vive en Argentina. Josue nunca pensó salir de su país, ni tampoco se imaginó adentrarse en la programación, ni el mundo IT. Por eso acá haremos un breve resumen de su vida antes de su vida actual como programador<figcaption>
+    </div>
+    <div id="tribute-info">
+      <h3 id="title-info">Here's a time line of Josue's life:</h3>
+        <ul>
+          <li><strong>2003</strong> - Born Josue in Caracas, Venezuela</li>
+          <!-- rellenar -->
+        </ul>
+        <div id="phrase">
+          <p id="thought">
+            "Cuando escuché aquel famoso pensamiento que dice que: <b><i>la mejor forma de predecir el futuro es crearlo</i></b>, decidí cambiar mi rutina diaria y retarme a mí mismo, actualmente me encuentro saliendo de mi zona de confort constantemente"
+          </p>
+          <p id="name">Josue Hoenicka, 2022</p>
+        </div>
+        <h3>
+          If you have time, you should see his projects:
+          <a id="tribute-link" href="https://github.com/josuehoenicka" target="_blank">GitHub Profile</a>
+        </h3>
+    </div>
+  </main>
+</body>
 </html>
